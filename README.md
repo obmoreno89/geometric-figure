@@ -3,6 +3,6 @@ Proyecto en el cual podemos hacer el calculo de algunas figuras geometricas, pon
 
 creado con:
 
-HTML
-CSS
-javascript
+- HTML
+- CSS
+- javascript
