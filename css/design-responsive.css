@@ -1,0 +1,162 @@
+@media only screen and (min-width: 1329px) and (max-width: 1440px){
+    .box-input-container form {
+        width: 100%;
+        font-size: 1.5rem;
+        align-items: center;
+    }
+    .triangle-input-container h2 {
+        width: 85%;
+
+    }
+    .triangle-input-container form {
+        font-size: 1.5rem;
+    }
+    .triangle-input-container input {
+        width: 100px;
+        
+    }
+    .circle-input-container form {
+            width: 89%;
+            margin-left: 20px;
+            font-size: 1.5rem;
+            align-items: center;
+    }
+    .circle-input-container h2 {
+        width: 87%;
+    }
+}
+@media (max-width: 768px){
+    .box-input-container h2 {
+        font-size: 1.7rem;
+        width: 100%;
+    }
+    .box-input-container input {
+        margin-right: 19px;
+        width: 75%;
+    }
+    .box-input-container .box-button-container {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .triangle-input-container h2 {
+        width: 100%;
+        font-size: 1.7rem;
+    }
+    .triangle-input-container form {
+        font-size: 1.4rem;
+    }
+    .triangle-input-container input {
+        width: 45px;
+    }
+    .circle-input-container h2 {
+        font-size: 1.7rem;
+        width: 100%;
+    }
+    .circle-input-container input {
+        margin-right: 19px;
+        width: 75%;
+    }
+    .circle-input-container .box-button-container {
+        width: 95%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+}
+@media (max-width: 425px){
+    
+    .header-container .header-title-geometric {
+        display: none;
+    }
+    .header-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .header-container span{
+        background-image: url('../asset/icon/menu.svg');
+        background-repeat: no-repeat;
+        width: 40px;
+        height: 40px;
+        margin-bottom: 10px;
+        
+    }
+    .box-container {
+        height: 115px;
+    }
+    .box-container .box-title-container {
+        font-size: 2.5rem;
+        line-height: 31px;
+        text-align: center;
+    }
+    .container{
+        width: 95%;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: auto;
+    }
+    .box-input-container form {
+        display: flex;
+        flex-direction: column;
+        line-height: 25px;
+    }
+    .box-input-container input {
+        margin-left: 25px;
+        width: 50%;
+    }
+    .box-input-container .box-button-container {
+        flex-direction: column;
+        align-items: center;
+        height: 75px;
+    }
+    .triangle-input-container{
+        margin-top: 50px;
+    }
+
+    .circle-input-container{
+        margin-top: 50px;
+    }
+
+    .triangle-input-container input {
+        width: 150px;
+    }
+    .circle-input-container form {
+        display: flex;
+        flex-direction: column;
+        line-height: 25px;
+    }
+
+    .circle-input-container label{
+        margin-right: 20px;
+    }
+    .circle-input-container input {
+        margin-right: 20px;
+        width: 50%;
+    }
+    .circle-input-container .circle-button-container {
+        flex-direction: column;
+        align-items: center;
+        height: 75px;
+    }
+    @media (max-width: 375px){
+        .triangle-input-container input {
+            width: 120px;
+        }
+        .circle-input-container h2 {
+            width: 95%;
+        }
+    }
+    @media (max-width: 320px){
+        .box-container .box-title-container {
+            font-size: 2.0rem;
+            width: 98%;
+        }
+        .triangle-input-container h2 {
+            width: 95%;
+        }
+        .triangle-input-container input {
+            width: 79px;
+        }
+    }
+
+}

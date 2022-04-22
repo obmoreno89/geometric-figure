@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/design-responsive.css">
+    <script src="./figuras.js"></script>
+    <title>Figuras gemotricas | Curso practico de JS</title>
+</head>
+<body>
+    <header class="header-container">
+        <div>
+            <img class="header-icon-container" src="./asset/icon/mex.svg" alt="Logo">
+        </div>
+        <div>
+            <h1 class="header-title-geometric">Figuras gemotricas</h1>
+        </div>
+       
+        <span><a href="/"></a></span>
+        
+       
+    </header>
+    <section class="box-container">
+        <div>
+            <h2 class="box-title-container">Calcula el area y perimetro de un cuadrado</h2>
+            <p class="box-text-container">Vamos a hacer operaciones de calculo de nuestras figuras geometricas</p>
+        </div>
+    </section>
+        
+    <main>
+
+        <section class="container">    
+         <!--operaciones con el cuadrado -->
+        <section class="box-input-container">
+            <h2>Calcular area y perimetro de un cuadrado</h2>
+            <img src="./asset/icon/box.svg" alt="Cuadro">
+        <form  action="">
+            <label for="InputCuadrado">Medida de los lados:</label>
+                <input id="InputCuadrado" type="number">        
+        </form>
+        <div class="box-button-container">
+            <button class="hand" type="button" onclick="calcularPerimetroCuadrado()">Perimetro</button>
+            <button class="hand" type="button" onclick="calcularAreaCuadrado()">Area</button>
+            </div> 
+    </section>  
+        <!--operaciones con el triangulo -->
+    <section class="triangle-input-container">
+        <h2>Calcular el area y el perimetro de un triangulo</h2>
+        <img src="./asset/icon/triangle.svg" alt="Triangulo">
+        <form action="">
+            <div class="triangle-form">
+            <label for="InputTrianguloLado1">Medida de un lado:</label>
+            <input id="InputTrianguloLado1" type="number">
+
+            <label for="InputTrianguloLado2">Medida del otro lado:</label>
+            <input id="InputTrianguloLado2" type="number">
+
+            <label for="InputTrianguloBase">Medidad de la base:</label>
+            <input id="InputTrianguloBase" type="number">
+        </div>
+        </form>
+        <div>
+            <button class="hand type="button" onclick="calcularPerimetroTriangulo()">Perimetro</button>
+        </div>
+            <form action="">
+            <div class="triangle-form">
+            <label for="InputTrianguloAltura">Medida de la altura.</label>
+            <input type="number" name="" id="InputTrianguloAltura">
+          
+            <label for="InputTrianguloBaseArea">Medida de la base</label>
+            <input type="number" name="" id="InputTrianguloBaseArea">
+        </div>
+        </form>
+        <div>
+            <button class="hand type="button" onclick="calcularAreaTriangulo()">Area</button>
+        </div>
+    </section>
+    <!--operaciones con el circulo -->
+
+    <section class="circle-input-container">
+        <h2>Calcular diametro y area de un circulo</h2>
+        <img src="./asset/icon/circle.svg" alt="circulo">
+        <form action="">
+            <label for="InputCirculoRadio">Medida del radio:</label>
+            <input type="number" name="" id="InputCirculoRadio">
+        </form>
+            <div class="circle-button-container">
+            <button class="hand type="button" onclick="calcularDiametroCirculo()">Diametro</button>
+            <button class="hand type="button" onclick="calcularAreaCirculo()">Area</button>
+        </div>
+    </section>
+</section>
+    </main>
+    <footer>
+        <section class="footer-container">
+            <h3>Omar_bm</h3>
+            <a class="hand" href="https://github.com/obmoreno89">github.com/obmoreno89</a>
+        </section>
+    </footer>
+</body>
+</html>
